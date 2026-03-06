@@ -17,6 +17,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
   
 body {
     font-family: 'Inter', sans-serif;
@@ -150,6 +154,7 @@ p {
     position: relative;
     padding: 3rem 1rem;
     background: var(--bg-secondary);
+    scroll-margin-top: 5rem;
 }
 
 #about .about-content {
@@ -196,6 +201,7 @@ p {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    scroll-margin-top: 5rem;
 }
 
 .skills-group {
@@ -255,6 +261,7 @@ p {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    scroll-margin-top: 5rem;
 }
 
 .projects-grid {
@@ -339,6 +346,7 @@ p {
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    scroll-margin-top: 5rem;
 }
 
 .contact-links {
