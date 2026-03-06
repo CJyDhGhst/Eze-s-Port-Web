@@ -301,6 +301,19 @@ p {
     transition: transform 0.3s ease;
 }
 
+.project-card .inactive-proj {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: blur(5px);
+    object-position: center 0%;
+    transition: transform 0.3s ease;
+}
+
 .project-card:hover img {
     transform: scale(1.05);
 }
@@ -309,6 +322,15 @@ p {
     position: relative;
     background-color: var(--bg-secondary);
     padding: 1rem;
+}
+
+.proj-details a {
+    color: var(--accent);
+    transition: color 0.3s ease;
+}
+
+.proj-details a:hover {
+    color: var(--accent-hover);
 }
 
 /* Contact Section */
